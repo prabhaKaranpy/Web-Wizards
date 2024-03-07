@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    background-color: #eff0f4;
+}
+span{
+    font-size: 100px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url("https://i.postimg.cc/nc4F5FM2/wave-1.png");
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #FF2A2A;
+    background-size: cover;
+    background-position-x: 20%;
+    background-position-y: 100%;
+    animation: mymove 10s infinite;
+    -webkit-box-reflect: below -30px linear-gradient(transparent, rgba(0, 0, 0, 0.4));
+}
+@keyframes mymove{
+    50%{
+        background-position-x: 100%;
+    }
+}
+/* .link-4{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 250px;
+    text-align: center;
+    color: white;
+    font-weight: 999;
+    font-size: 4vw;
+    background: #FF2A2A;
+    height: 35px;
+    font-size: 20px;
+    padding-top: 5px;
+    border-radius: 5px;
+    margin-bottom: 5vw;
+    text-decoration: none;
+}
+.link-4:hover{
+    color: black;
+} */
+
